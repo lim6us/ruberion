@@ -1,0 +1,53 @@
+// Dota Heroes File
+// NOTE: This is not for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	"npc_dota_hero_rubick"
+	{
+    "Ability1"             "rubick_grand_illusion"
+    "Ability2"             "rubick_spell_theft"
+    "Ability3"             "rubick_arcane_vortex"
+    "Ability6"             "rubick_ultima"
+    "Ability12"            "special_bonus_unique_rubick_8"
+    "Ability13"            "special_bonus_unique_rubick_2"
+    "Ability14"            "special_bonus_unique_rubick_6"
+    "Ability15"            "special_bonus_unique_rubick_7"
+    "Ability16"            "special_bonus_unique_rubick_3"
+    "Ability17"            "special_bonus_unique_rubick_4"
+    "Ability18"            "special_bonus_unique_rubick"
+    "Ability19"            "special_bonus_unique_rubick_5"
+
+        "ModelScale"           "0.700000"
+        "Model"                "models/heroes/rubick/rubick.vmdl"
+		"SoundSet"					"Hero_Invoker"
+        "ProjectileModel"      "particles/units/heroes/hero_rubick/rubick_base_attack.vpcf"
+		"particle_folder"                "particles/units/heroes/hero_rubick"
+		"GameSoundsFile"                 "soundevents/game_sounds_heroes/game_sounds_rubick.vsndevts"
+		"VoiceFile"                      "soundevents/voscripts/game_sounds_vo_rubick.vsndevts"
+		"new_player_enable"			"1"
+		"SimilarHeroes"				"109,12,94"
+		"ArmorPhysical"        "1.000000"
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+	    "AttackDamageMin"      "48"
+        "AttackDamageMax"      "56"
+		"AttackRate"           "1.700000"
+		"AttackAnimationPoint"		"0.400000"
+		"AttackAcquisitionRange"		"800"
+		"AttackRange"          "550"
+		"ProjectileSpeed"      "1125"
+		"AttributePrimary"		"DOTA_ATTRIBUTE_INTELLECT"
+        "AttributeBaseStrength"        "21"
+        "AttributeStrengthGain"          "1.8"
+        "AttributeBaseAgility"           "23" 
+        "AttributeAgilityGain"           "1.6"
+        "AttributeBaseIntelligence"      "25"
+        "AttributeIntelligenceGain"      "3.2"
+		"MovementSpeed"                  "285"
+		"HealthBarOffset"		"360" 
+		"PickSound"				""
+		"BanSound"				""
+		"StatusHealthRegen"		"3.25"
+	}
+	
+}

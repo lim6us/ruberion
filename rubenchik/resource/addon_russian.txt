@@ -1,0 +1,34 @@
+"addon_english"
+{
+    "Language"  "Russian"
+    "Tokens"
+    {
+        // Heroes
+        "DOTA_HeroName_npc_dota_hero_rubick"                "Rubick"
+        "DOTA_HeroDescription_npc_dota_hero_rubick"         "Rubick is a powerful spellcaster who can steal and amplify the abilities of enemy heroes. His ultimate, Grand Illusion, creates a powerful illusion of himself that mimics his movements and abilities, dealing reduced damage that is shared with Rubick."
+        "DOTA_HeroRole_npc_dota_hero_rubick"                "Support,Nuker"
+        "DOTA_HeroAttackCapability_npc_dota_hero_rubick"    "DOTA_UNIT_CAP_RANGED_ATTACK"
+        "DOTA_HeroStat_npc_dota_hero_rubick_PrimaryAttribute" "DOTA_ATTRIBUTE_INTELLECT"
+        "DOTA_HeroStat_npc_dota_hero_rubick_AttributeStrengthGain"  "1.8"
+        "DOTA_HeroStat_npc_dota_hero_rubick_AttributeAgilityGain"   "1.6"
+        "DOTA_HeroStat_npc_dota_hero_rubick_AttributeIntelligenceGain" "3.2"
+        "DOTA_HeroStat_npc_dota_hero_rubick_AttackRange"    "550"
+        "DOTA_HeroStat_npc_dota_hero_rubick_AttackRate"     "1.7"
+        "DOTA_HeroStat_npc_dota_hero_rubick_MovementSpeed"  "285"
+        "DOTA_HeroStat_npc_dota_hero_rubick_BaseHealth"     "580"
+        "DOTA_HeroStat_npc_dota_hero_rubick_BaseMana"       "320"
+        "DOTA_HeroStat_npc_dota_hero_rubick_BaseArmor"      "2"
+        "DOTA_HeroStat_npc_dota_hero_rubick_AttackDamageMin" "48"
+        "DOTA_HeroStat_npc_dota_hero_rubick_AttackDamageMax" "56"
+
+        // Abilities
+        "DOTA_Ability_rubick_grand_illusion"                "Grand Illusion"
+        "DOTA_Ability_rubick_grand_illusion_Description"    "Rubick creates a powerful illusion of himself that mimics his movements and abilities. The illusion deals reduced damage that is shared with Rubick."
+        "DOTA_Ability_rubick_spell_steal"                   "Spell Steal"
+        "DOTA_Ability_rubick_spell_steal_Description"       "Rubick steals the last spell cast by an enemy hero, gaining temporary access to that ability. The stolen spell gains additional power, healing increased damage or providing a stronger effect."
+        "DOTA_Ability_rubick_fade_bolt"                     "Fade Bolt"
+        "DOTA_Ability_rubick_fade_bolt_Description"         "Rubick launches a bolt of arcane energy, damaging enemy units in its path. The bolt also steals a percentage of the target's spell damage."
+        "DOTA_Ability_rubick_null_field"                    "Null Field"
+        "DOTA_Ability_rubick_null_field_Description"        "Rubick creates a vortex of magical energy around himself, damaging enemy units caught within and providing Rubick with a temporary damage absorption shield."
+    }
+}

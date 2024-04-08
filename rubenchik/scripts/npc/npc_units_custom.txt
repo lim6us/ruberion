@@ -1,0 +1,41 @@
+// Units File
+"DOTAUnits"
+{
+	"Version"	"1"
+
+"DOTAUnits"
+{
+    "npc_dota_rubick_grand_illusion"
+    {
+        // Общие параметры иллюзии
+        "BaseClass"                 "npc_dota_rubick"
+        "Model"                     "models/heroes/rubick/rubick.vmdl"  // Модель иллюзии
+        "ModelScale"                "0.7"  // Масштаб модели иллюзии
+        "IsDeniable"                "1"    // Иллюзия может быть отрицаема
+        "IsIllusion"                "1"    // Это иллюзия
+        "IsHero"                    "1"
+ 
+        // Параметры жизни и урона
+        "ArmorPhysical"             "0"    // Физическая броня
+        "MagicalResistance"         "0"    // Магическая резистентность
+        "AttackCapabilities"        "DOTA_UNIT_CAP_RANGED_ATTACK"
+        "AttackDamageMin"           "48"   // Минимальный урон
+        "AttackDamageMax"           "56"   // Максимальный урон
+        "AttackRate"                "1.7"  // Скорость атаки
+        "AttackAnimationPoint"      "0.4"  // Точка анимации атаки
+        "AttackAcquisitionRange"    "800"  // Радиус обнаружения цели
+        "AttackRange"               "550"  // Дальность атаки
+        "ProjectileModel"           "particles/units/heroes/hero_rubick/rubick_base_attack.vpcf" // Модель снаряда
+        "ProjectileSpeed"           "1125" // Скорость снаряда
+
+        // Параметры движения
+        "MovementCapabilities"      "DOTA_UNIT_CAP_MOVE_GROUND"
+        "MovementSpeed"             "285"  // Скорость передвижения
+
+        // Параметры видимости и команды
+        "VisionDaytimeRange"        "1800" // Радиус видимости днем
+        "VisionNighttimeRange"      "800"  // Радиус видимости ночью
+        "UnitRelationshipClass"     "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_ILLUSION"
+    }
+}
+}
